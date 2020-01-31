@@ -82,36 +82,41 @@ Steps define the workflow of azmodan, and contain all informations needed to run
 **type: visit**
 
 options:
-| Title | Type | Required | Description |
+
+| Title | Type   | Required | Description                       |
 | ----- | ------ | -------- | --------------------------------- |
-| url | string | true | Url to be visited by the browser. |
+| url   | string | true     | Url to be visited by the browser. |
 
 **type: fill**
 
 options:
-| Title | Type | Required | Description |
+
+| Title   | Type   | Required | Description                                  |
 | ------- | ------ | -------- | -------------------------------------------- |
-| target | string | true | Target element on page to be filled. |
-| content | string | false | Content to be filled into the target object. |
+| target  | string | true     | Target element on page to be filled.         |
+| content | string | false    | Content to be filled into the target object. |
 
 **type: click**
 
 options:
-| Title | Type | Required | Description |
+
+| Title  | Type   | Required | Description                           |
 | ------ | ------ | -------- | ------------------------------------- |
-| target | string | true | Target element on page to be clicked. |
+| target | string | true     | Target element on page to be clicked. |
 
 **type: press**
 
 options:
-| Title | Type | Required | Description |
+
+| Title | Type   | Required | Description        |
 | ----- | ------ | -------- | ------------------ |
-| key | string | true | Key to be pressed. |
+| key   | string | true     | Key to be pressed. |
 
 **All types also share these options:**
-| Title | Type | Required | Description |
+
+| Title       | Type   | Required | Description                                                     |
 | ----------- | ------ | -------- | --------------------------------------------------------------- |
-| description | string | false | Custom description of the step, overrides Azmodans descriptions |
-| delay | number | false | Optional delay in milliseconds before action will be performed. |
+| description | string | false    | Custom description of the step, overrides Azmodans descriptions |
+| delay       | number | false    | Optional delay in milliseconds before action will be performed. |
 
 It is also possible to pass environment variables into step definitions, like `${THIS}`.
