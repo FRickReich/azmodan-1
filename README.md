@@ -81,7 +81,7 @@ Steps define the workflow of azmodan, and contain all informations needed to run
 
 **type: visit**
 
-options:
+Options:
 
 | Title | Type   | Required | Description                       |
 | ----- | ------ | -------- | --------------------------------- |
@@ -89,7 +89,7 @@ options:
 
 **type: fill**
 
-options:
+Options:
 
 | Title   | Type   | Required | Description                                  |
 | ------- | ------ | -------- | -------------------------------------------- |
@@ -98,7 +98,7 @@ options:
 
 **type: click**
 
-options:
+Options:
 
 | Title  | Type   | Required | Description                           |
 | ------ | ------ | -------- | ------------------------------------- |
@@ -106,7 +106,7 @@ options:
 
 **type: press**
 
-options:
+Options:
 
 | Title | Type   | Required | Description        |
 | ----- | ------ | -------- | ------------------ |
